@@ -1,0 +1,10 @@
+1712137823601|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists posts|drop table if exists posts
+1712137823602|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists users|drop table if exists users
+1712138899122|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists posts|drop table if exists posts
+1712138899122|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists users|drop table if exists users
+1712138915312|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists posts|drop table if exists posts
+1712138915312|0|statement|connection 32|url jdbc:h2:mem:testdb|drop table if exists users|drop table if exists users
+1712142070909|0|statement|connection 34|url jdbc:h2:mem:9f3bb47f-3f20-4980-a253-6a429827ad0d|drop table if exists posts cascade |drop table if exists posts cascade 
+1712142070910|0|statement|connection 34|url jdbc:h2:mem:9f3bb47f-3f20-4980-a253-6a429827ad0d|drop table if exists users cascade |drop table if exists users cascade 
+1712142136249|0|statement|connection 34|url jdbc:h2:mem:145f3b6a-e07c-4971-9cc6-1b1773901f76|drop table if exists posts cascade |drop table if exists posts cascade 
+1712142136249|0|statement|connection 34|url jdbc:h2:mem:145f3b6a-e07c-4971-9cc6-1b1773901f76|drop table if exists users cascade |drop table if exists users cascade 
