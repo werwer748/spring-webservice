@@ -8,3 +8,5 @@
 1712142070910|0|statement|connection 34|url jdbc:h2:mem:9f3bb47f-3f20-4980-a253-6a429827ad0d|drop table if exists users cascade |drop table if exists users cascade 
 1712142136249|0|statement|connection 34|url jdbc:h2:mem:145f3b6a-e07c-4971-9cc6-1b1773901f76|drop table if exists posts cascade |drop table if exists posts cascade 
 1712142136249|0|statement|connection 34|url jdbc:h2:mem:145f3b6a-e07c-4971-9cc6-1b1773901f76|drop table if exists users cascade |drop table if exists users cascade 
+1712189815630|0|statement|connection 34|url jdbc:h2:mem:bcd2d58d-5ebd-4fc5-b62f-615eafe94b90|drop table if exists posts cascade |drop table if exists posts cascade 
+1712189815631|0|statement|connection 34|url jdbc:h2:mem:bcd2d58d-5ebd-4fc5-b62f-615eafe94b90|drop table if exists users cascade |drop table if exists users cascade 
