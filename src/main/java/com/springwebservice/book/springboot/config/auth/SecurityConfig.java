@@ -31,10 +31,11 @@ public class SecurityConfig {
                                 // USER 권한을 가진 사람만 /api/v1/** api 호출 가능
                                 .requestMatchers("/api/v1/**").hasRole(Role.USER.name())
                                 // anyRequest: 설정값들 외 URL, authenticated: 인증된 사용자에게만 허용
-                                .anyRequest().permitAll()
+                                .anyRequest().authenticated()
                 )
 //                .exceptionHandling((exceptionConfig) ->
 //                        )
+                .formLogin((login) -> login.permitAll())
                 .logout((logoutConfig) ->
                         // 로그아웃 기능 설정의 진입점
                         logoutConfig
