@@ -35,7 +35,6 @@ public class SecurityConfig {
                 )
 //                .exceptionHandling((exceptionConfig) ->
 //                        )
-                .formLogin((login) -> login.permitAll())
                 .logout((logoutConfig) ->
                         // 로그아웃 기능 설정의 진입점
                         logoutConfig
