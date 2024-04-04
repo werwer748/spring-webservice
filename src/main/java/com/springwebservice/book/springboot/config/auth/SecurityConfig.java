@@ -2,6 +2,7 @@ package com.springwebservice.book.springboot.config.auth;
 
 import com.springwebservice.book.springboot.domain.user.Role;
 import lombok.RequiredArgsConstructor;
+import org.springframework.boot.autoconfigure.security.servlet.PathRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -27,6 +28,8 @@ public class SecurityConfig {
                         // URL 별 권한관리 설정 옵션
                         authorizeRequests
                                 // 전체 열람권한
+                                .requestMatchers(PathRequest.toH2Console()).permitAll()
+                                .requestMatchers("/", "/login/**").permitAll()
                                 .requestMatchers("/", "/css/**", "/images/**", "/js/**", "/h2-console/**").permitAll()
                                 // USER 권한을 가진 사람만 /api/v1/** api 호출 가능
                                 .requestMatchers("/api/v1/**").hasRole(Role.USER.name())

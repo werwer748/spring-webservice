@@ -8,8 +8,8 @@ import lombok.RequiredArgsConstructor;
 public enum Role {
 
     // 스프링 시큐리티에서는 권한 코드에 항상 ROLE_ 가 앞에 있어야 한다.
-    GUEST("GUEST", "Guest"),
-    USER("USER", "Common User");
+    GUEST("ROLE_GUEST", "Guest"),
+    USER("ROLE_USER", "Common User");
 
     private final String key;
     private final String title;
